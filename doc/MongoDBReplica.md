@@ -1,4 +1,3 @@
-
 Mongodb replica setup for production Environment on Red hat linux 
 ====================================================
 
@@ -360,5 +359,40 @@ Enable reading from the 'SECONDARY' node with the query 'rs.slaveOk()', and then
 
 Output:
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
