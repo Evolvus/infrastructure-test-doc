@@ -115,6 +115,8 @@ mongod   hard    nofile   64000
 
 ![alt text](https://drive.google.com/file/d/1CWrB5PT7wWtrd_wL6CTA0T7ukrDABs50/view)
 
+<img src="http://drive.google.com/uc?export=view&id=0B2nmJ_DIvLZtS0VGSnNRVlVTQTA" alt="Google Logo">
+
 Note: This change only applies to new shells, meaning you must restart mongod.
 
 Recommended values for mongodb: 
