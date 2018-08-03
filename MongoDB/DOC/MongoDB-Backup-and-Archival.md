@@ -1,4 +1,4 @@
-## MongoDB Backup: 
+## MongoDB Backup 
 1.Create Directory
 ```console
 Ex:#mkdir -p /FLUX_CDA/cdadb/
@@ -14,7 +14,7 @@ mkdir $DEST
 mongodump -h localhost -d cdadb -o $DEST 
 zip -r $DEST.zip $DEST
 ```
-### Output:
+### Output
 ![Picture11](https://storage.googleapis.com/slt12/Picture11.png)
 ![Picture12](https://storage.googleapis.com/slt12/Picture12.png)
 
@@ -24,11 +24,11 @@ zip -r $DEST.zip $DEST
 root@db1:# crontab backup_cron
 root@db1:# crontab -l
 ```
-Output:
+Output
 ```console
 0 20 * * *	/FLUX_CDA/cdadb/backup.sh
 ```
-**4. Archiving:**
+**4. Archiving**
 1.Insert into the cdadbarch from cdadbcollection
 ```console
 Ex: >db.cdadbcollection.insert({'product_id':'2','ach_id':'NACH00000000006006','corporate_acc_no':'1 00101213','created_by':'system','created_date':' ','department_id':'AAA','mandate_category':'U001-Billpayment','product_code':'1020','product_name':'Auto-loan','product_status':'Active','q_status':'ACC-300','reference_no':'','sponsor_bank_code':'UTIB0000248'});
@@ -37,7 +37,7 @@ Ex: >db.cdadbcollection.insert({'product_id':'2','ach_id':'NACH00000000006006','
 ```console
 Ex: >db.cdadbcollection.find().forEach(printjson)
 ```
-Output:
+Output
 ![Picture13](https://storage.googleapis.com/slt12/Picture13.png)
 
 6.Insert into cdadbarch document from existing document.
@@ -46,7 +46,7 @@ Output:
 { db.cdadbarch.insert(recs);});
 ```
 
-Output:
+Output
 ```console
 > db.cdadbarch.find().forEach(printjson)
 ```
@@ -55,6 +55,6 @@ Output:
 **Note:** Please consider the screen shots as sample data.
 
 
-**APPENDIX:**
+**APPENDIX**
 
 https://docs.mongodb.com/manual/administration/
