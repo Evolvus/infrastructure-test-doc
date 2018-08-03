@@ -28,8 +28,8 @@ Output
 ```console
 0 20 * * *	/FLUX_CDA/cdadb/backup.sh
 ```
-**4. Archiving**
-1.Insert into the cdadbarch from cdadbcollection
+4. Archiving
+      1.Insert into the cdadbarch from cdadbcollection
 ```console
 Ex: >db.cdadbcollection.insert({'product_id':'2','ach_id':'NACH00000000006006','corporate_acc_no':'1 00101213','created_by':'system','created_date':' ','department_id':'AAA','mandate_category':'U001-Billpayment','product_code':'1020','product_name':'Auto-loan','product_status':'Active','q_status':'ACC-300','reference_no':'','sponsor_bank_code':'UTIB0000248'});
 ```
