@@ -77,7 +77,7 @@ $ sudo systemctl status nginx
  
 Jan 18 21:45:54 cenots7-theosin systemd[1]: Starting nginx - high performance web server...
 Jan 18 21:45:54 cenots7-theosin systemd[1]: Started nginx - high performance web server.
-
+```
 ### Step 4 – Open port 80 and 443 using firewall-cmd
 You must open and enable port 80 and 443 using the firewall-cmd command:
 ```console
