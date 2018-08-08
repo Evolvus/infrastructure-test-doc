@@ -34,7 +34,7 @@ enabled=1
 ```
 Save and close the file in vi.
 
-###Step 2: Install Nginx on RHEL 7
+### Step 2: Install Nginx on RHEL 7
 Type the following yum command on your RHEL 7.x server:
 ```console
 $ sudo yum install nginx
