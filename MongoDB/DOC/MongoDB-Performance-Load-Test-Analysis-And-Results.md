@@ -24,10 +24,11 @@ Using the MongoDB (version3.6) along with YCSB (version 0.1.2) is a popular Jav
 *  Also conducted the overnight test and 2 days test in the weekend. 
 ### Results for Incremental Operational load
 ![Result1](https://storage.googleapis.com/slt12/Result1.png)
+![Capture1](https://storage.googleapis.com/slt12/Capture1.PNG)
 ![Result3](https://storage.googleapis.com/slt12/Result3.png)
 ![result4](https://storage.googleapis.com/slt12/result4.png)
 ![Result5](https://storage.googleapis.com/slt12/Result5.png)
-![Capture1](https://storage.googleapis.com/slt12/Capture1.PNG)
+
 ## Conclusion 
    As per the test data the latency were with 35 to 40ms for average, minimum, 95th Percentile, 250 to 300ms for 99th  Percentile for both read and update which is within our bench mark limit of 500ms and there is no drastic difference across the tests . The Maximum Latency is more than our bench mark for all the tests. 
 
