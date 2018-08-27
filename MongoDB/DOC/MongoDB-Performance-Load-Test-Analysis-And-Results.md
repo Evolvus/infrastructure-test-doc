@@ -25,7 +25,7 @@ Using the MongoDB (version3.6) along with YCSB (version 0.1.2) is a popular Jav
 ### Results for Incremental Operational load
 ![Result1](https://storage.googleapis.com/slt12/Result1.png)
 ![Result3](https://storage.googleapis.com/slt12/Result3.png)
-![Result4](https://storage.googleapis.com/slt12/Result4.png)
+![result4](https://storage.googleapis.com/slt12/result4.png)
 ![Result5](https://storage.googleapis.com/slt12/Result5.png)
 ![Capture1](https://storage.googleapis.com/slt12/Capture1.PNG)
 ## Conclusion 
